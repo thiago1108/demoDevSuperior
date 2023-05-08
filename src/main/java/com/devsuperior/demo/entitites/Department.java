@@ -5,6 +5,15 @@ public class Department {
     private long id;
     private String name;
 
+    public Department (){  // metodo construtor sem argumentos
+
+    }
+
+    public Department(long id, String name) { // metodo construtor com arguento
+        this.id = id;
+        this.name = name;
+    }
+     // gets e sets
     public long getId() {
         return id;
     }
